@@ -1,0 +1,57 @@
+body {
+  padding: 50px;
+  background-color: #131313;
+  font: 32px 'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.main {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #eee;
+  text-align: center;
+}
+
+.entry-button, input #file-upload-button /* ??? */ {
+  font-size: 32px;
+  color: #fff;
+  background-color: #2e2e2e;
+  padding: 0.5rem 1rem;
+  border: solid #ffffff 2px;
+  border-radius: 4px;
+  transition: 100ms;
+  opacity: 1;
+}
+
+.entry-button:hover {
+  background-color: #565656;
+}
+
+.entry-button:disabled {
+  opacity: 0;
+}
+
+.file-input {
+  margin-bottom: 1rem;
+  color: #fff;
+}
