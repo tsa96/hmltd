@@ -3,7 +3,7 @@ extends layout
 block scripts 
   script.
     const userData = !{JSON.stringify(userData)};
-  script(src='https://unpkg.com/pdf-lib')
+  script(src='https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js')
   script(src='/js/order.js')
 block content
   div(class="wrapper")
@@ -13,6 +13,6 @@ block content
       p Here you can write any general event info about signup, why you need a selfie etc.
       p This generates a PDF in-browser - we do not send or store any personal data.
       form(onsubmit="onSubmit();return false;" class="form")
-        input(id="SelfieInput", type="file", class="file-input" name="image", accept="image/x-png,image/jpeg,image/gif", onchange="onFileSelect();")
+        input(id="SelfieInput", type="file", class="file-input" name="image", accept="image/x-png,image/jpeg", onchange="onFileSelect();")
         br
         button(id="EntryButton", class="entry-button", type="submit", name="user_type", value=`${userType}`, disabled) Enter

@@ -12,6 +12,7 @@
     "formidable": "^2.0.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
+    "pdf-lib": "^1.17.1",
     "prettier": "^2.7.1",
     "pug": "2.0.0-beta11"
   }
