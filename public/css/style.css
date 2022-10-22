@@ -32,7 +32,7 @@ p {
   text-align: center;
 }
 
-.entry-button, input #file-upload-button /* ??? */ {
+.entry-button /* ??? */ {
   font-size: 32px;
   color: #fff;
   background-color: #2e2e2e;

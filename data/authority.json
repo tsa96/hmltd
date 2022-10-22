@@ -1,52 +1,110 @@
 [
   {
-    "name": "Harold Crick",
-    "role": "Department of Reality TV",
-    "bio": "Harold Crick is a small, unassuming man who loves nothing more than reality television. He is the head of the Department of Reality TV and is responsible for creating and overseeing all reality TV shows in the State."
+    "occupation": "Theoretical Dentist",
+    "bio": "Following rapid fluctuations in tooth size around the world, humanity has been ever pushing the bounds of odontological possibility, and there's nobody more experienced in the area than %fullName%. %He% was singlehandedly responsible for solving the rapid molar expansion crisis of 2056 by creating a device capable of removing 10,000 wisdom teeth at a time, using magnets. Now, %he% seeks to advance the field ever further by answering the question: Can a man survive with just a single gigantic tooth?"
   },
   {
-    "name": "Stephanie Smothers",
-    "role": "Head of Department of Censorship",
-    "bio": "Stephanie Smothers is a large, imposing woman with a very loud voice. She is the head of the Department of Censorship and is responsible for censoring all information that the State does not want its citizens to know."
+    "occupation": "Universe Simulator (Student)",
+    "bio": "%fullName% was always good at math. Like, really good. So good that %he% decided to major in physics and become a universe simulator. It's a pretty cool job, and it pays well, but it's also really challenging. After all, there are an infinite number of universes out there, and it's %firstName%'s job to simulate them all. But %he's% up for the challenge, and %he's% determined to find the one true universe."
   },
   {
-    "name": "Jeffrey Pritzker",
-    "role": "Head of Department of Surveillance",
-    "bio": "Jeffrey Pritzker is a tall, thin man with a very serious demeanor. He is the head of the Department of Surveillance and is responsible for overseeing all surveillance operations in the State."
+    "occupation": "Netflicrat",
+    "bio": "Netflix is the biggest thing since sliced bread, and everyone knows it. But what most people don't know is that there's a secret society of Netflix addicts who call themselves \"netflicrats.\" They're the ones who always have their noses buried in their laptops, watching episode after episode of their favorite shows. And they're the ones who always seem to be up-to-date on the latest trends. If you want to be a netflicrat, you have to be willing to dedicate your life to Netflix. And get paid handsomely to do so."
   },
   {
-    "name": "Maria Sanchez",
-    "role": "Head of Department of Propaganda",
-    "bio": "Maria Sanchez is a small, fiery woman with a passion for propaganda. She is the head of the Department of Propaganda and is responsible for creating and disseminating all propaganda for the State."
+    "occupation": "Decentralized Cyberstate Politician (Discord Mod)",
+    "bio": "In the year 2097, the world was plunged into chaos when the centralized governments collapsed. In its place arose a new form of government: the decentralized cyberstate. And in this new world, Discord mods are the politicians. They're the ones who moderate the conversations and keep the peace. It's a tough job, but someone has to do it. Be careful or they'll ban you from voice chat."
   },
   {
-    "name": "James Wilkinson",
-    "role": "Head of Department of Mind Control",
-    "bio": "James Wilkinson is a tall, handsome man with an easygoing personality. He is the head of the Department of Mind Control and is responsible for overseeing all mind control operations in the State."
+    "occupation": "Embedded Necrobotics Engineer",
+    "bio": "%fullName% was always interested in death. Not in a morbid way, but in a scientific way. %He% wanted to understand what happens to our bodies after we die, and %he% wanted to find a way to bring people back from the dead. So %he% became an embedded necrobotics engineer, using nuclear blockchain atomic components to ressurect consciousness from the Great Void. It's a pretty gruesome job, but %firstName% is up for the challenge."
   },
   {
-    "name": "Sarah Jones",
-    "role": "Head of Department of Education",
-    "bio": "Sarah Jones is a kind, gentle woman with a love for learning. She is the head of the Department of Education and is responsible for overseeing all educational operations in the State."
+    "occupation": "Experience Developer, Virtualia",
+    "bio": "%fullName% is one of the lucky few who gets to live in the virtual world of Virtualia. And as an experience developer, it's %his% job to make sure that everyone who visits Virtualia has a positive experience. %He's% responsible for creating new experiences and maintaining the existing ones. It's a lot of work, but %firstName% loves it  - and gets to spend all of %his% day in the wonderful worlds of Virtualia."
   },
   {
-    "name": "John Doe",
-    "role": "Head of Department of Health",
-    "bio": "John Doe is a tall, muscular man with a no-nonsense attitude. He is the head of the Department of Health and is responsible for overseeing all health operations in the State."
+    "occupation": "Gene Editor",
+    "bio": "Dr. %fullName% is a gene editor. That means %he% spends %his% days tinkering with the DNA of other people's children, and %he% loves it. %He% has always loved playing with dolls, and now %he% gets to play with real live human beings. It's the perfect job for %him%, as %he% gets to use %his% creativity to make people's lives better. And %he% gets to do it all from the comfort of %her% own LifePod."
   },
   {
-    "name": "Jane Smith",
-    "role": "Head of Department of Food and Agriculture",
-    "bio": "Jane Smith is a tall, slender woman with a passion for food and agriculture. She is the head of the Department of Food and Agriculture and is responsible for overseeing all food and agriculture operations in the State."
+    "occupation": "Museum Curator (Museo Nacional De Fat Dog)",
+    "bio": "%fullName% is the curator of the Museo Nacional de Fat Dog in Buenos Aires, Argentina. It is %his% job to care for the world's largest collection of Fat Dog memorabilia and instruments, and %he% takes %his% job very seriously. %He% loves fat dogs and Fat Dog, and %he% wants to make sure that everyone else does too."
   },
   {
-    "name": "William Johnson",
-    "role": "Head of Department of Defense",
-    "bio": "William Johnson is a large, imposing man with a very serious demeanor. He is the head of the Department of Defense and is responsible for overseeing all defense operations in the State."
+    "occupation": "Gig Economist Professor",
+    "bio": "Dr. %fullName% is the world's leading expert on gig economics. %He's% written dozens of books on the subject, and %he's% a professor at the prestigious Deliveroo University. %He's% also a bit of a gig economist himself, as %he% has several delivery side hustles that %he% uses to supplement %his% income. %He's% a consultant for various gig companies, and %he% also runs a small gig consulting business. In %his% spare time, %he% likes to play bridge and listen to hyperpop music."
   },
   {
-    "name": "Jessica Anderson",
-    "role": "Head of Department of Media",
-    "bio": "Jessica Anderson is a small, bubbly woman with a love for the media. She is the head of the Department of Media and is responsible for overseeing all media operations in the State."
+    "occupation": "Level 5 Entertainer (Professional Memelord)",
+    "bio": "%fullName% is the world's most famous memelord. %He's% been entertaining audiences with %his% clever memes for over 20 years, and %he% shows no signs of slowing down. %He's% also a level 5 entertainer, which means that %he% can pretty much make any audience laugh. No matter what the situation is, %firstName% always has a dank meme for it. Feels good, man."
+  },
+  {
+    "occupation": "Moon Gulag Governor",
+    "bio": "%fullName% was born on the moon, and %he's% been there ever since. %His% parents were sent to the moon as part of the Musk Gulag program, and they raised %him% there. When %he% was old enough, %he% took over as governor of the Musk Gulag, and %he's% been running it ever since. It's not an easy job, but someone has to do it. "
+  },
+  {
+    "occupation": "Experimental Psychiatrist (Psychoplasmics)",
+    "bio": "Dr. Professor %fullName% is the world's leading expert on psychoplasmics. %He's% been studying the effects of psychic energy on the human mind for over 69 years, and %he's% made some groundbreaking discoveries. %He's% also an experimental psychiatrist, and %he's% always looking for new ways to help with mental health. %He's% a bit of a maverick, and he doesn't always follow the rules, but his test subj-, uh, patients, love %him% for it."
+  },
+  {
+    "occupation": "Athlete (Professional Tsunami Surfer)",
+    "bio": "%fullName% is a professional tsunami surfer. %He% started surfing along tsunamis caused by the nuclear fallout when %he% was just a child, and %he% quickly developed a passion for it. When %he% was 18, %he% won the world championship, and %he's% been surfing professionally ever since. %He's% also an athlete, and %he% competes in various other sports. But %his% true passion is tsunami surfing, and %he% loves nothing more than riding the big, radioactive waves."
+  },
+  {
+    "occupation": "Bureaucrat (Department of Incompetence)",
+    "bio": "%fullName% is the assistant associate vice president of the Head Division of Ineptness of the Department of Incompetence. It's %his% job to make sure that the government is as inefficient and ineffective as possible. %He's% been in the job for over 20 years, and %he's% very good at it. %He's% a master of bureaucracy, and %he% knows how to make things just complicated enough to be completely useless."
+  },
+  {
+    "occupation": "Lemurian Timelord",
+    "bio": "%fullName% was always a bit of a time lord. No, not in the sense that he was always late for appointments (although he was) or that he was always forgetful (he definitely was). But in the sense that he always seemed to be living in a different era than the rest of us. So it's no surprise that when the Lemurians came to Earth in the 22nd century, Rufus became their timelord. It's the perfect job for him, as he gets to travel through time and space, and he gets to meet interesting people from all over the universe. And what could be more fun than being a timelord?"
+  },
+  {
+    "occupation": "CEO, Virtualia",
+    "bio": "When the world went virtual, so did %firstName%. %He% was one of the first people to abandon the physical world for the digital one, and %he's% never looked back. As CEO of Virtualia, %firstName% is responsible for creating and maintaining the digital world that so many lucky people now call home. It's a big job, but %firstName% is up to the task. After all, %he's% been living in this world for longer than anyone else, and %he% knows it better than anyone else."
+  },
+  {
+    "occupation": "Bioport Engineer",
+    "bio": "A Bioport Engineer is responsible for the construction and maintenance of bioports, which are used to transport people and goods between the physical world and the digital world. It's a demanding job, but it's also a very rewarding one, with a salary in both physical and digital tokens. After all, what could be more satisfying than helping people move between two worlds?"
+  },
+  {
+    "occupation": "Priest, Church of Anti-Natalism",
+    "bio": "The Church of Anti-Natalism is a small but growing religion that believes that it is morally wrong to bring new life into existence. As a priest in this church, it is your job to spread the word of anti-natalism and to convince others to join our cause. It's not an easy task, but it's a very important one. After all, if we can convince others to join us, then we can put an end to the mundane cycle of birth, death and rebirth, and finally attain Moksha."
+  },
+  {
+    "occupation": "Lifepod Landlord",
+    "bio": "%fullName% has always been a bit of a control freak. %He% likes things to be just so, and %he% doesn't like it when things don't go according to plan. So it's no surprise that when the lifepods became available, %he% jumped at the chance to become a lifepod landlord. It's the perfect job for %him%, as %he% gets to digitally control every aspect of her tenants' lives, from what they eat and drink to how often they have sex. And if things ever get too out of hand, %he% can just eject them from the pod and start over again - no big deal."
+  },
+  {
+    "occupation": "Evolutionary Accelerationist",
+    "bio": "%fullName% has always been interested in evolution. %He's% read all the books and %he's% seen all the documentaries. But %he's% never been content with just watching from the sidelines. He wants to be part of the action. So when %he% heard about the new field of evolutionary accelerationism, %he% knew it was for %him%. It's the perfect job for %him%, as %he% gets to help speed up evolution by artificially speeding up the flow of Capital between the metaverse and the non-metaverse. And who knows? Maybe one day %his% work will lead to the creation of a new species of human beings."
+  },
+  {
+    "occupation": "Mustelid Breeder",
+    "bio": "%fullName%  has always loved animals. But %he's% never been content with just keeping them as pets. %He% wants to help them evolve and adapt to the changing world. So when %he% heard about the new field of mustelid breeding, %he% knew it was for %him%. It's the perfect job for %him%, as %he% gets to help create new and improved species of mustelids that are better equipped to survive in the ever-changing environment."
+  },
+  {
+    "occupation": "Crisis Actor's Union Boss",
+    "bio": "%fullName% has always been a bit of a drama emperor. %He% loves nothing more than being the center of attention, and %he's% always had a knack for stirring up trouble. So it's no surprise that when the crisis actor's union was formed, %he% was elected its first president. It's the perfect job for %him%, as he gets to cause all sorts of havoc and chaos while pretending to be someone else. And if things ever get too boring, %he% can always stage a fake emergency to liven things up again."
+  },
+  {
+    "occupation": "Marine Life Adaptationist",
+    "bio": " %fullName% has always loved animals. But %he's% never been content with just keeping them as pets. %He% wants to help them evolve and adapt to the changing world. So when %he% heard about the new field of marine life adaptation, %he% knew it was for %him%. It's the perfect job for %him%, as %he% gets to help create new and improved species of marine life that are better equipped to survive in the ever-changing environment. "
+  },
+  {
+    "occupation": "Marine Life Adaptation Psychotherapist",
+    "bio": "%fullName% has always been interested in psychology. %He's% read all the books and %he's% seen all the documentaries. But %he's% never been content with just watching from the sidelines. %He% wants to be part of the action. So when %he% heard about the new field of marine life adaptation psychotherapy, %he% knew it was for %him%. It's the perfect job for him, as %he% gets to help iraddiated marine lifeforms understand their deeper self through the help of underwater Lacanian psychonalysis and talking therapy. And who knows? Maybe one day %his% work will lead to the creation of a new strand of Marine Post-Nuclear Psychoanalysis."
+  },
+  {
+    "occupation": "Cryptoornithologist",
+    "bio": "A cryptoornithologist is a person who studies the hidden birds of the Metaverse. They are experts in finding and identifying hidden bird species, and they use their knowledge of the blockchain to help conservation efforts. Cryptoornithologists often work in remote areas of Virtualia, and they often have to use creative cryptographic coding to find their subjects. But it's all worth it when they can help save a species from digital extinction."
+  },
+  {
+    "occupation": "Adjunct Professor of Psyops",
+    "bio": "An adjunct professor of psyops is someone who teaches students about the psychological warfare tactics used by militaries and governments. They help students understand how these tactics are used to influence and control people. Adjunct professors of psyops often have a background in psychology or military science, and they use their knowledge to help their students learn about this dark side of human behavior. They also might, occasionaly, have side gigs in which they use their knowledge for fun and creative ways to launch hybrid digital warfare!"
+  },
+  {
+    "occupation": "Head of Janitor Department, Blockchain",
+    "bio": "When the blockchain revolution came, it was only natural that someone would have to take charge of cleaning up all the messes. And that's where %fullName% comes in. As head of the janitor department for blockchain, %he% is responsible for keeping the digital ledger clean and tidy. It's a dirty job, but somebody has to do it. And John takes great pride in %his% work, even if nobody else does."
   }
 ]
