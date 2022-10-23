@@ -1,4 +1,4 @@
-extends layout
+extends baselayout
 
 block scripts 
   script.
@@ -7,10 +7,14 @@ block scripts
   script(src='https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js')
   script(src='https://unpkg.com/@pdf-lib/fontkit/dist/fontkit.umd.min.js')
   script(src='/js/order.js')
-block content
-    p Here you can write any general event info about signup, why you need a selfie etc.
-    p This generates a PDF in-browser - we do not send or store any personal data.
-    form(onsubmit="onSubmit();return false;" class="form")
-      input(id="SelfieInput", type="file", class="file-input" name="image", accept="image/png,image/jpeg,", onchange="onFileSelect();")
-      br
-      button(id="EntryButton", class="entry-button", type="submit", name="user_type", value=`${userType}`, disabled) Enter
+  body    
+    div(id="wrapper" class="wrapper entry-wrapper")
+      div(class="main")
+        img(src='/images/logo.png', class="logo")
+        block entrytext
+        p(class="smalltext") This generates a PDF in your browser - we do not send or store any personal data, including images.
+        form(onsubmit="onSubmit();return false;" class="form")
+          input(id="SelfieInput", type="file", class="file-input" name="image", accept="image/png,image/jpeg,", onchange="onFileSelect();")
+          br
+          button(id="EntryButton", class="entry-button", type="submit", name="user_type", value=`${userType}`, disabled) Enter
+      iframe(id="pdf" class="pdf")

@@ -71,7 +71,7 @@ async function createPdf(imageArrayBuffer, imageMimeType) {
       const minSize = idealSize / 2;
       const charScaleCutoff = maxChars * 1.5;
 
-      // This should generally be the case.
+      // This should usually be the case.
       if (chars <= maxChars) return idealSize;
 
       // We want to shrink by half at most, if a string is greater than double the max length.
@@ -109,21 +109,21 @@ async function createPdf(imageArrayBuffer, imageMimeType) {
       x: 400,
       y: 799,
       opacity: fontOpacity,
-      size: dynamicSize(userData.birthplace, 30, 28),
+      size: dynamicSize(userData.birthplace, 26, 28),
     });
 
     page.drawText(userData.occupation, {
       x: 400,
       y: 718,
       opacity: fontOpacity,
-      size: dynamicSize(userData.occupation, 30, 28),
+      size: dynamicSize(userData.occupation, 26, 28),
     });
 
     page.drawText(userData.bio, {
       x: 110,
       y: 430,
       opacity: fontOpacity,
-      size: dynamicSize(userData.bio, 450, 24),
+      size: dynamicSize(userData.bio, 420, 24),
       maxWidth: 610,
       font: font,
     });
@@ -188,6 +188,10 @@ async function createPdf(imageArrayBuffer, imageMimeType) {
         y: 740,
       });
 
+    const pdfDataUri = await pdfDoc.saveAsBase64({dataUri: true});
+    document.getElementById("pdf").src = pdfDataUri;
+    document.getElementById("wrapper").classList.add('entry-wrapper--show-pdf');
+    
     const blob = new Blob([await pdfDoc.save()]);
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);

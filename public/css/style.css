@@ -1,15 +1,25 @@
+/* Worst CSS I've ever written but who cares. I miss Sass! */
+
+html,
 body {
-  padding: 50px;
+  height: 100%;
+  margin: 0;
+}
+
+body {
   background-color: #131313;
-  font: 32px 'Source Sans Pro', sans-serif;
 }
 
 .wrapper {
   width: 100%;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
 }
 
 .main {
-  width: 40%;
+  padding: 20px 50px 50px 50px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -18,6 +28,11 @@ body {
 
 .logo {
   width: 50%;
+  margin: 0 auto;
+}
+
+.content {
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -32,8 +47,20 @@ p {
   text-align: center;
 }
 
+p {
+  margin: 12px 0;
+  font: 3rem "Syne Mono", sans-serif;
+}
+
+.smalltext {
+  font-size: 2rem;
+}
+
+.form * {
+  font-size: 24px;
+}
 .entry-button /* ??? */ {
-  font-size: 32px;
+  font-size: 3rem;
   color: #fff;
   background-color: #2e2e2e;
   padding: 0.5rem 1rem;
@@ -54,4 +81,60 @@ p {
 .file-input {
   margin-bottom: 1rem;
   color: #fff;
+  font-size: 3rem;
+}
+
+/* This breakpoints are shite, could improve later */
+@media (min-width: 1024px) {
+  p {
+    font-size: 1.5rem;
+  }
+
+  .smalltext {
+    font-size: 1rem;
+  }
+  
+  .main {
+    width: 50%;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .file-input {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+}
+
+.pdf {
+  flex: 1 1 auto;
+
+  width: 100%;
+  height: 100%;
+}
+
+.entry-wrapper > .pdf {
+  display: none;
+}
+
+.entry-wrapper--show-pdf > .pdf {
+  display: block;
+}
+
+.entry-wrapper--show-pdf > .main {
+  display: none;
+}
+
+.form {
+  margin: 16px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

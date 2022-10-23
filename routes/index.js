@@ -53,9 +53,7 @@ roles[UserTypes.Subject] = {
 
 const entry = (req, res, userType) => {
   let data;
-  // TODO: use node_env
-  // TODO!!!!!: DELETE TO ENABLE COOKIES
-  if (req.cookies && req.cookies["OrderData"] && false) {
+  if (req.cookies && req.cookies["OrderData"] && req.query?.cookies !== "false") {
     data = req.cookies["OrderData"];
     console.log(
       `GET SUCCESS: Found cookie for user with data\n\t${JSON.stringify(
@@ -69,7 +67,7 @@ const entry = (req, res, userType) => {
     const r = roles[userType];
     const userData = r.data[r.current];
 
-    if (r.current < r.total) r.current++;
+    if (r.current < r.total - 1) r.current++;
     else r.current = 0;
 
     userData.dob = randomDate(new Date(2036, 1, 1), new Date(2100, 12, 31));
@@ -147,7 +145,7 @@ const entry = (req, res, userType) => {
       sameSite: "lax",
     });
   }
-  res.render("entry", data);
+  res.render(userType === UserTypes.Auth ? "auth" : "subj", data);
 };
 
 router.post("/submit", (req, res, _next) => {
